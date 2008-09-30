@@ -6,6 +6,11 @@ simple and consistent across platforms.  You can specify whether you want to
 clear 'both', 'left', or 'right' and set the height of the div in any unit you
 want (defaults to pixels).
 
+Installation
+============
+
+./script/plugin install git://github.com/phallstrom/clear_helper.git
+
 
 Example
 =======
