@@ -15,7 +15,7 @@ module ActionView
         if height.to_i.to_s == height.to_s
           height = "#{height}px" unless height.to_s == '0'
         end
-        %Q{<div style="clear:#{what}; height: #{height}; max-height: #{height}; line-height: #{height};">&nbsp;</div>}
+        %Q{<div style="clear:#{what}; height: #{height}; max-height: #{height};">&nbsp;</div>}
       end
 
     end
