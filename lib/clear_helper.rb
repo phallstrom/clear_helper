@@ -28,7 +28,7 @@ module ActionView
                                'line-height' => options['height'])
 
         # the sort is really just so the tests pass easily
-        %Q{<div style="#{options.map {|e| "#{e.first}: #{e.last}" }.sort.join('; ')}">&nbsp;</div>}
+        %Q{<div style="#{options.map {|e| "#{e.first}: #{e.last}" }.sort.join('; ')}">&nbsp;</div>}.try(:html_safe)
       end
 
     end
