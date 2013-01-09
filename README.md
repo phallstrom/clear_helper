@@ -1,19 +1,25 @@
-ClearHelper
-===========
+# ClearHelper
 
-ClearHelper is a simple one method helper to make creating a "cleared" div
+ClearHelper is a simple method helper to make creating a "cleared" div
 simple and consistent across platforms.  You can specify whether you want to
 clear 'both', 'left', or 'right' and set the height of the div in any unit you
 want (defaults to pixels).
 
-Installation
-============
+## Installation
 
-./script/plugin install git://github.com/phallstrom/clear_helper.git
+Add this line to your application's Gemfile:
 
+    gem 'clear_helper'
 
-Example
-=======
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install clear_helper
+
+## Usage
 
 <%= clear %>
 <div style="clear:both; height: 0; max-height: 0; line-height: 0;">&nbsp;</div>
@@ -32,6 +38,10 @@ and will default to 'both'.
 <%= clear('2.5em') %>
 <div style="clear:both; height: 2.5em; max-height: 2.5em; line-height: 2.5em;">&nbsp;</div>
 
+## Contributing
 
-
-Copyright (c) 2008 [Philip Hallstrom], released under the MIT license
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request

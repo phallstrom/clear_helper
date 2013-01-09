@@ -1,10 +1,11 @@
 require 'test/unit'
 require 'rubygems'
 require 'action_controller'
-require 'init'
+require 'clear_helper'
 
 class ClearHelperTest < Test::Unit::TestCase
   include ActionView::Helpers::TagHelper
+  include ClearHelper::TagHelper
 
   def test_clear_helper
     assert_equal '<div style="clear: both; font-size: 0; height: 0; line-height: 0; max-height: 0">&nbsp;</div>', clear

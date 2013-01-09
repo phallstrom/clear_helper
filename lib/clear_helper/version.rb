@@ -1,0 +1,3 @@
+module ClearHelper
+  VERSION = "0.0.1"
+end
