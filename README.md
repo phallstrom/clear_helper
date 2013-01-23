@@ -1,5 +1,7 @@
 # ClearHelper
 
+[![Gem Version](https://badge.fury.io/rb/clear_helper.png)](http://badge.fury.io/rb/clear_helper)
+
 ClearHelper is a simple method helper to make creating a "cleared" div
 simple and consistent across platforms.  You can specify whether you want to
 clear 'both', 'left', or 'right' and set the height of the div in any unit you
