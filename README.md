@@ -21,22 +21,22 @@ Or install it yourself as:
 
 ## Usage
 
-<%= clear %>
-<div style="clear:both; height: 0; max-height: 0; line-height: 0;">&nbsp;</div>
+    <%= clear %>
+    <div style="clear:both; height: 0; max-height: 0; line-height: 0;">&nbsp;</div>
 
-<%= clear(:left) %>
-<div style="clear:left; height: 0px; max-height: 0px; line-height: 0px;">&nbsp;</div>
+    <%= clear(:left) %>
+    <div style="clear:left; height: 0px; max-height: 0px; line-height: 0px;">&nbsp;</div>
 
 Failure to specify the unit for the height will default to 'px'.
 
-<%= clear(:right, 10) %>
-<div style="clear:left; height: 10px; max-height: 10px; line-height: 10px;">&nbsp;</div>
+    <%= clear(:right, 10) %>
+    <div style="clear:left; height: 10px; max-height: 10px; line-height: 10px;">&nbsp;</div>
 
 If the first value is not one of 'both', 'left', or 'right' it will be assumed to be the height
 and will default to 'both'.
 
-<%= clear('2.5em') %>
-<div style="clear:both; height: 2.5em; max-height: 2.5em; line-height: 2.5em;">&nbsp;</div>
+    <%= clear('2.5em') %>
+    <div style="clear:both; height: 2.5em; max-height: 2.5em; line-height: 2.5em;">&nbsp;</div>
 
 ## Contributing
 

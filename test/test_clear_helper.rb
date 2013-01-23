@@ -3,7 +3,7 @@ require 'rubygems'
 require 'action_controller'
 require 'clear_helper'
 
-class ClearHelperTest < Test::Unit::TestCase
+class TestClearHelper < Test::Unit::TestCase
   include ActionView::Helpers::TagHelper
   include ClearHelper::TagHelper
 
