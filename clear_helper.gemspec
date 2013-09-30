@@ -11,6 +11,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{A Rails helper method to simplify generation of "clear" divs}
   gem.summary       = %q{ClearHelper is a simple method helper to make creating a "cleared" div simple and consistent across platforms.  You can specify whether you want to clear 'both', 'left', or 'right' and set the height of the div in any unit you want (defaults to pixels)}
   gem.homepage      = "https://github.com/phallstrom/clear_helper"
+  gem.license       = "MIT"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
